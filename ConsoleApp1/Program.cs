@@ -50,6 +50,7 @@ while (!int.TryParse(hhh, out int lol)){
 
 
 //steg 8
+Console.WriteLine("steg 8");
 Random random = new Random();
 int hemligtTal = random.Next(1, 11);
 int gissning = 0;
@@ -69,6 +70,7 @@ while (gissning != hemligtTal){
     }
     else{
         Console.WriteLine("Grattis, du gissade rätt!");
-        }
+    }
+    Console.ReadLine();
 }
 
